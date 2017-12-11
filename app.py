@@ -11,7 +11,7 @@ import dash_html_components as html
 import pandas as pd
 import plotly.graph_objs as go
 
-euro_data = pd.read_csv("/Users/maneldomingo/Desktop/dash_app_example/Eurostat_file.csv")
+euro_data = pd.read_csv("Eurostat_file.csv")
 available_indicators = euro_data['NA_ITEM'].unique()
 available_countries = euro_data['GEO'].unique()
 
